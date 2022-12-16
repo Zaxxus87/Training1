@@ -24,7 +24,7 @@ namespace Training1
 
         public int Mult(int a, int b)
         {
-            return 20;
+            return a*b;
         }
 
         public int Div(int a, int b)
