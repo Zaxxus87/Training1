@@ -12,7 +12,7 @@ namespace Training1
         public static void Main(string[] args)
         {
             Calc calc1 = new Calc();
-            Console.WriteLine($"{ calc1.Add(2, 3)} - Expecting 5");     
+            Console.WriteLine($"{calc1.Add(2, 3)} - Expecting 5");     
             Console.WriteLine($"{calc1.Sub(3, 1)} - Expecting 2");     
             Console.WriteLine($"{calc1.Mult(4, 5)} - Expecting 20");    
             Console.WriteLine($"{calc1.Div(10, 3)} - Expecting 3");    
